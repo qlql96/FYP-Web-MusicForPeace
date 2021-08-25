@@ -14,8 +14,10 @@ use Illuminate\Support\Facades\DB;
 
 class EditMusic extends Component
 {
-    public User $user;
-    public Music $music;
+    //public User $user;
+    //public Music $music;
+    public $user;
+    public $music;
 
     public $genres;
     public $themes;
