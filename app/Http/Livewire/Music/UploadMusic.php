@@ -33,7 +33,7 @@ class UploadMusic extends Component
     protected $rules = [
         'musicFile' => 'nullable|mimes:mp4|max:1228800',
         'songSrc' => 'required|mimes:mp3|max:1228800',
-        'songPicSrc' => 'required|max:1228800',
+        'songPicSrc' => 'required|mimes:jpeg,bmp,png,gif,svg|max:1228800',
         'music.title' => 'required|max:255',
         'selectedGenre' => 'required',
         'selectedTheme' => 'required',
